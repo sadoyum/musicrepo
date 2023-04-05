@@ -9,20 +9,20 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://i.ibb.co/khRz42f/Turkish-Voice.jpg",
-                caption=(f"""**Merhaba {message.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [Lösevi Müzik 🎙️](https://t.me/umudunukaybetmesohbet).**"""),
+                caption=(f"""**Merhaba {message.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [Pulsar Müzik 🎙️](https://t.me/Sohbet_Marjinal).**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/umudunukaybetmesohbet"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Sohbet_Marjinal"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/umudunukaybetmesohbet"
+                        "🔊 Asistan", url="https://t.me/Sohbet_Marjinal"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/umudunukaybetmesohbet"
+                        "💬 Sohbet", url="https://t.me/Sohbet_Marjinal"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/umudunukaybetmesohbet"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/Sohbet_Marjinal"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Ana menü🏠", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/hurkole")
+                         "⚙ Geliştirici", url="https://t.me/BenMuso")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "⚙ Geliştirici", url="https://t.me/hurkole")
+            "⚙ Geliştirici", url="https://t.me/BenMuso")
         ]
       ]
      ))
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/hurkole")
+                         "⚙ Geliştirici", url="https://t.me/BenMuso")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/hurkole")
+                         "⚙ Geliştirici", url="https://t.me/BenMuso")
                  ],
                  [
                      InlineKeyboardButton(
@@ -131,15 +131,15 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/umudunukaybetmesohbet"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Sohbet_Marjinal"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/umudunukaybetmesohbet"
+                        "🔊 Asistan", url="https://t.me/Sohbet_Marjinal"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/umudunukaybetmesohbet"
+                        "💬 Sohbet", url="https://t.me/Sohbet_Marjinal"
                     )
                 ],
                 [
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🌀 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/umudunukaybetmesohbet"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/Sohbet_Marjinal"
                     )
                 ]
                 
