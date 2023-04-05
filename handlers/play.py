@@ -199,7 +199,7 @@ async def play(_, message: Message):
         [
             [
                 InlineKeyboardButton("📚 Bilgi", url=f"https://t.me/Sohbet_Marjinal"),
-                InlineKeyboardButton(" Kanal", url=f"https://t.me/Sohbet_Marjinal"),
+                InlineKeyboardButton(" Kanal", url=f"https://t.me/BotDuyuru"),
             ],[
                 InlineKeyboardButton("✨ Kapat", callback_data="cls"),
             ],
@@ -264,7 +264,7 @@ async def play(_, message: Message):
         [
             [
                 InlineKeyboardButton("📚 Bilgi", url=f"https://t.me/Sohbet_Marjinal"),
-                InlineKeyboardButton("📮 Kanal", url=f"https://t.me/Sohbet_Marjinal"),
+                InlineKeyboardButton("📮 Kanal", url=f"https://t.me/BotDuyuru"),
             ],[
                 InlineKeyboardButton("✨ Kapat", callback_data="cls"),
             ],
