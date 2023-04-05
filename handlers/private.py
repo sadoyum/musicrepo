@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/Sohbet_Marjinal"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/BotDuyuru"
                     )
                 ]
                 
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🌀 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/Sohbet_Marjinal"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/BotDuyuru"
                     )
                 ]
                 
